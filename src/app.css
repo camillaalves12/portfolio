@@ -1,0 +1,14 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Fira Code', monospace;
+   background-color: #011627;
+   color: #fff;
+}
+
+.divProjects {
+   display: flex;
+   gap: 3rem;
+   flex-wrap: wrap;
+}
