@@ -1,26 +1,30 @@
-import S from "./styles.module.scss";
+import S from './styles.module.scss'
+import { NavLink } from 'react-router-dom'
 
-export function Projects() {
+
+export const Projects = ({ src, name, description, hrefProject, hrefCode }) => {
   return (
-    <div className={S.card}>
-      <div className={S.description}>
-        <h3>Project Name 1</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim
-          eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae
-          libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!
-        </p>
-        <div className={S.btns}>
-            <button className={S.btn} >Visualizar Projeto</button>
-            <button className={S.btn} >Visualizar Código</button>
+    <div className={S.container}>
+      <div className={S.card}>
+        <img className={S.img} src={src} />
+        <div className={S.description}>
+          <h5> {name} </h5>
+          <p>{description}</p>
+          <div className={S.btns}>
+            <button className={S.btn}>
+                <a href={hrefProject} target='_blank'>
+                Visualizar Projeto
+                </a>
+              </button>
+            <button className={S.btn}>
+            <a href={hrefCode} target='_blank'>
+                Visualizar Código
+                </a>
+              </button>
+          </div>
         </div>
-      </div>
-      <div>
-        <img
-          className={S.img}
-          src="https://cdn.pixabay.com/photo/2023/12/25/10/27/dog-8468288_640.jpg"
-        />
+        <div></div>
       </div>
     </div>
-  );
+  )
 }
