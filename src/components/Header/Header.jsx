@@ -1,20 +1,29 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
 import S from './styles.module.scss'
+import { NavLink } from 'react-router-dom'
 
-export function Header() {
-   return(
-      <Navbar className={S.header}>
-        <Container >
-          <Navbar.Brand href="#" >Navbar</Navbar.Brand>
+export const Header = () => {
+  return (
+    <Navbar expand="lg">
+      <Container className={S.header}>
+        <NavLink to="/">camilla-alves</NavLink>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">Sobre Mim</Nav.Link>
-            <Nav.Link href="#">Projetos</Nav.Link>
-            <Nav.Link href="#">Contato</Nav.Link>
+            <NavLink to="/projects" className="nav-link" ClassName={S.active}>
+              _projetos
+            </NavLink>
+            <NavLink to="/tech" className="nav-link" ClassName={S.active}>
+              _tecnologias
+            </NavLink>
+            <NavLink to="/about" className="nav-link" ClassName={S.active}>
+              _sobre mim
+            </NavLink>
           </Nav>
-        </Container>
-      </Navbar>
-   )
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  )
 }
