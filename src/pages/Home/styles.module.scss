@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.itens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.itensText {
+  width: 50%;
+  text-align: justify;
+}
+.colorDev {
+  color: #4d5bce;
+}
+
+.description {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 1.5;
+}
+.colorConst {
+  color: #4d5bce;
+}
+.colorName {
+  color: #fad58b;
+}
+
+img {
+  width: 400px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+a {
+  color: #fea55f;
+}
