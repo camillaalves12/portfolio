@@ -1,18 +1,22 @@
-import { Header } from "./components/Header"
-import './app.css'
-import { Projects } from "./components/Projects/Projects"
-function App() {
+// import { Header } from "./components/Header"
+// import './app.css'
+// import { Projects } from "./components/Projects/Projects"
+// import { About } from "./components/About/About"
+// import { Techs } from "./components/Techs"
 
-  return (
-    <>
-      <Header />
-      <div className='divProjects'>
-      <Projects />
-      <Projects />
-      <Projects />
-      </div>
-    </>
-  )
-}
+// function App() {
 
-export default App
+//   return (
+//     <>
+//       <Header />
+//       {/* <div className='divProjects'>
+//       <Projects />
+//       <Projects />
+//       <Projects />
+//       </div> */}
+//       <Techs />
+//     </>
+//   )
+// }
+
+// export default App

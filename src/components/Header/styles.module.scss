@@ -1,8 +1,24 @@
+.header {
+  margin-bottom: 1rem;
+}
 .header a {
-   color: #fff;
+  color: #fff;
 
-   &:hover {
-      color: #cdcdcd;
-   }
+  &:hover {
+    color: #cdcdcd;
+  }
+}
 
+.hamburguer {
+  color: #fff;
+}
+
+a .navbar-nav .nav-link.custom-active,
+a .navbar-nav .nav-link.custom-active:focus {
+  color: #cdcdcd; /* Cor desejada para o link ativo */
+}
+
+.active {
+  background-color: #cf0808;
+  color: #fff;
 }
