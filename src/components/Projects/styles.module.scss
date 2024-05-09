@@ -21,6 +21,14 @@
   }
 }
 
+.divTechs {
+  display: flex;
+  margin-top: 1rem;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+
+}
 .description {
   padding: 1rem;
 }
@@ -36,7 +44,7 @@
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .btn {
