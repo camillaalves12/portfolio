@@ -1,8 +1,7 @@
 import S from './styles.module.scss'
-import { NavLink } from 'react-router-dom'
 
 
-export const Projects = ({ src, name, description, hrefProject, hrefCode }) => {
+export const Projects = ({ src, name, description, hrefProject, hrefCode, techs }) => {
   return (
     <div className={S.container}>
       <div className={S.card}>
@@ -10,6 +9,17 @@ export const Projects = ({ src, name, description, hrefProject, hrefCode }) => {
         <div className={S.description}>
           <h5> {name} </h5>
           <p>{description}</p>
+
+
+          <div className={S.divTechs}>
+            {techs.map((tech, index) => (
+              <div key={index} className={S.techs}>
+                {tech.icon}
+              </div>
+            ))}
+          </div>
+
+
           <div className={S.btns}>
             <button className={S.btn}>
                 <a href={hrefProject} target='_blank'>
@@ -22,6 +32,7 @@ export const Projects = ({ src, name, description, hrefProject, hrefCode }) => {
                 </a>
               </button>
           </div>
+
         </div>
         <div></div>
       </div>
