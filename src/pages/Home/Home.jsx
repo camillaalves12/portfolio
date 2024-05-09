@@ -15,8 +15,8 @@ export const Home = () => {
               Sou graduanda em Sistemas de Informação pela Universidade Federal
               de Alagoas e uma desenvolvedora front-end dedicada. Possuo uma
               base sólida em JavaScript, ReactJs, React Native, HTML, CSS,
-              Bootstrap, Sass, Git, Node.js e java, estou constantemente
-              buscando expandir meu conhecimento e habilidades.
+              Bootstrap e Sass,  estou constantemente
+              buscando expandir meus conhecimentos e habilidades.
             </h6>
 
             <p>
