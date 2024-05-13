@@ -4,41 +4,111 @@
   height: 90vh;
   align-items: center;
   justify-content: center;
+  margin: 1;
 }
 
 .itens {
+  width: 90%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10rem;
+  justify-content:  center;
+
 }
 
 .itensText {
   width: 50%;
-  text-align: justify;
 }
+
 .colorDev {
   color: #4d5bce;
 }
-
+.divGit_Link {
+  margin-top: 8rem;
+}
 .description {
   padding-top: 40px;
   padding-bottom: 40px;
   line-height: 1.5;
 }
+
 .colorConst {
   color: #4d5bce;
 }
+
 .colorName {
   color: #fad58b;
 }
 
 img {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 500px;
   border-radius: 50%;
 }
 
 a {
   color: #fea55f;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .itens {
+    gap: 2rem;
+  }
+
+  .itensText {
+    width: 60%;
+  }
+
+  img {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+
+  img {
+    width: 300px;
+    height: 350px;
+  }
+  .divGit_Link p {
+    font-size: 0.71rem;
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .itensText {
+    width: 80%;
+  }
+  img {
+    display: none;
+  }
+  .divGit_Link p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .name {
+    font-size: 2.2rem;
+  }
+  .itensText {
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .name {
+    font-size: 2rem;
+  }
+  .itensText {
+    width: 80%;
+  }
+
 }
