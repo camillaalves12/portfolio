@@ -6,19 +6,18 @@
   justify-content: center;
   margin: 1;
 }
-
 .itens {
   width: 90%;
   display: flex;
   align-items: center;
   justify-content:  center;
-
 }
-
 .itensText {
   width: 50%;
 }
-
+.name {
+  font-size: 4rem;
+}
 .colorDev {
   color: #4d5bce;
 }
@@ -30,22 +29,21 @@
   padding-bottom: 40px;
   line-height: 1.5;
 }
-
 .colorConst {
   color: #4d5bce;
 }
-
 .colorName {
   color: #fad58b;
 }
-
+.divGit_Link p {
+  font-size: 1.1rem;
+}
 img {
   width: 100%;
   max-width: 400px;
   height: 500px;
   border-radius: 50%;
 }
-
 a {
   color: #fea55f;
 }
