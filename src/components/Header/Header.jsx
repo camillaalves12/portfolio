@@ -18,6 +18,9 @@ export const Header = () => {
             <NavLink to="/tech" className="nav-link" ClassName={S.active}>
               _tecnologias
             </NavLink>
+            <NavLink to="/about" className="nav-link" ClassName={S.active}>
+              _sobre_mim
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
