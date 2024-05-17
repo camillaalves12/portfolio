@@ -36,12 +36,3 @@ export const Home = () => {
 }
 
 
-{/* <h6 className={S.description}>
-              Sou graduanda em Sistemas de Informação pela Universidade Federal
-              de Alagoas e uma desenvolvedora front-end dedicada. Possuo uma
-              base sólida em JavaScript, ReactJs, React Native, HTML, CSS,
-              Bootstrap e Sass,  estou constantemente
-              buscando expandir meus conhecimentos e habilidades.
-            </h6> */}
-
-            // 
