@@ -16,7 +16,7 @@ export const PageAboutMe = () => {
         opacity: [0,1],
         easing: "easeInOutExpo",
         duration: 1000,
-        delay: (el, i) => 20 * (i+1)
+        delay: (el, i) => 10 * (i+1)
       });
   }, []);
 
