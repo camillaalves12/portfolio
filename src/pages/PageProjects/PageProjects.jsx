@@ -13,19 +13,6 @@ import { DiBootstrap } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { TbBrandNextjs, TbBrandTailwind  } from "react-icons/tb";
 
-// const techData = [
-//   [  
-//     { icon: <IoLogoJavascript size={30}/>, name: 'Javascript' },
-//     { icon: <IoLogoHtml5 size={30} />, name: 'Html5' },
-//     { icon: <IoLogoCss3 size={30} />, name: 'Css3' },
-//     { icon: <FaJava size={30} />, name: 'Java' }
-//   ],
-//   { icon: <IoLogoReact size={30} />, name: 'React' },
-//   { icon: <IoLogoReact size={30} />, name: 'React Native' },
-//   { icon: <DiBootstrap size={30} />, name: 'Bootstrap' },
-//   { icon: <IoLogoSass size={30} />, name: 'Sass' },
-//   { icon: <FaGitAlt size={30} />, name: 'Git' }
-// ];
 
 const techData = [
   [  
@@ -47,8 +34,8 @@ const techData = [
   ],
   [
     { icon: <IoLogoJavascript size={30}/> },
-    { icon: <IoLogoHtml5 size={30} />, name: 'Html5' },
-    { icon: <IoLogoCss3 size={30} />, name: 'Css3' },
+    { icon: <IoLogoHtml5 size={30} /> },
+    { icon: <IoLogoCss3 size={30} />},
   ],
 
 ];
@@ -80,8 +67,8 @@ export const PageProjects = () => {
             src={Quiz}
             name="App Quiz"
             description="Quiz sobre IA com 5 perguntas. Possui feedback instantâneo e teste seus conhecimentos quantas vezes desejar."
-            hrefProject="https://github.com/camillaalves12/QuizApp"
-            hrefCode="https://github.com/camillaalves12/calculadora"
+            hrefProject="https://camillaalves-quizapp.netlify.app/"
+            hrefCode="https://github.com/camillaalves12/QuizApp"
             techs={techData[2]}
 
           />
