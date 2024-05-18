@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <Navbar expand="lg">
       <Container className={S.header}>
-        <NavLink to="/">camilla-alves</NavLink>
+        <NavLink to="/">camilla_alves</NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
