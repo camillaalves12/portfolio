@@ -18,10 +18,10 @@ const techData = [
   { icon: <IoLogoCss3 size={55} />, name: 'Css3' },
   { icon: <IoLogoReact size={55} />, name: 'React' },
   { icon: <IoLogoReact size={55} />, name: 'React Native' },
+  { icon: <TbBrandVite size={55} />, name: 'Vite' },
   { icon: <DiBootstrap size={55} />, name: 'Bootstrap' },
   { icon: <IoLogoSass size={55} />, name: 'Sass' },
   { icon: <FaGitAlt size={55} />, name: 'Git' },
-  { icon: <TbBrandVite size={55} />, name: 'Vite' },
 ]
 
 export const PageTechs = () => {
