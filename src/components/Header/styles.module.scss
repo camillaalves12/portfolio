@@ -1,7 +1,8 @@
 .header {
   margin-bottom: 1rem;
-  gap: 1.5rem;
+  gap: 2rem;
 }
+
 .header a {
   color: #fff;
 
@@ -10,16 +11,6 @@
   }
 }
 
-.hamburguer {
-  color: #fff;
-}
-
-a .navbar-nav .nav-link.custom-active,
-a .navbar-nav .nav-link.custom-active:focus {
-  color: #cdcdcd; /* Cor desejada para o link ativo */
-}
-
-.active {
-  background-color: #cf0808;
-  color: #fff;
+.nav {
+  margin-right: 15px;
 }
