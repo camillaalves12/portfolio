@@ -65,38 +65,61 @@ a {
 }
 
 @media screen and (max-width: 970px) {
-
+.name {
+    font-size: 3.1rem;
+  }
   img {
     width: 300px;
     height: 350px;
   }
   .divGit_Link p {
-    font-size: 0.71rem;
+    font-size: 0.72rem;
     
   }
 }
 
 @media screen and (max-width: 768px) {
   .name {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .itensText {
-    width: 80%;
+    width: 100%;
   }
-  img {
+  .imgCamilla {
     display: none;
   }
   .divGit_Link p {
     font-size: 1rem;
   }
 }
-
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 610px) {
   .name {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
   .itensText {
-    width: 80%;
+    width: 100%;
+  }
+  .divGit_Link p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .divGit_Link p {
+    font-size: 0.66rem;
+  }
+
+}
+
+@media screen and (max-width: 440px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .colorDev{
+    font-size: 1rem;
+  }
+  .divGit_Link p {
+    font-size: 0.66rem;
   }
 
 }
@@ -105,8 +128,22 @@ a {
   .name {
     font-size: 2rem;
   }
-  .itensText {
-    width: 80%;
+  .divGit_Link p {
+    font-size: 0.62rem;
   }
+  
+
+}
+@media screen and (max-width: 320px) {
+  .name {
+    font-size: 2rem;
+  }
+  .divGit_Link p {
+    font-size: 0.53rem;
+  }
+  .colorDev{
+    font-size: 0.9rem;
+  }
+  
 
 }

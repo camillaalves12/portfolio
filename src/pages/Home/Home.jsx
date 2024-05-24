@@ -31,8 +31,7 @@ export const Home = () => {
             </div>
 
             <h5 className={`${S.colorDev} animate__animated animate__shakeY`}>&gt; Front-end developer</h5>
-            
-            
+                       
             <div className={`${S.divGit_Link} animate__animated animate__flipInX`}>
               <p>
                 <span className={S.colorConst}>const</span>{' '}
@@ -46,7 +45,7 @@ export const Home = () => {
               </p>
             </div>
           </div>
-            <img src="../src/imgs/camilla 1.jpg" alt="Foto Camilla" />
+            <img className={S.imgCamilla} src="../src/imgs/camilla 1.jpg" alt="Foto Camilla" />
         </div>
       </div>
     </>
