@@ -1,11 +1,15 @@
 .container {
+
+}
+.containerHome {
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   margin: 1;
 }
+
 .itens {
   width: 90%;
   display: flex;
