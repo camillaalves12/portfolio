@@ -22,8 +22,7 @@ export const PageAboutMe = () => {
 
   return (
     <>
-      <Header />
-      <div className={S.container}>
+          <div className={S.container}>
         <div className={S.description}>
           <h6 className={S.text}>
             <span>/*</span> <br/> <br/>

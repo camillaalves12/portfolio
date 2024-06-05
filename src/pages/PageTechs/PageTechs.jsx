@@ -27,8 +27,7 @@ const techData = [
 export const PageTechs = () => {
   return (
     <>
-      <Header />
-      <div className={S.container}>
+          <div className={S.container}>
         <Techs title="Linguagens" techs={techData.slice(0, 3)} />
         <Techs title="Tecnologias" techs={techData.slice(3)} />
       </div>

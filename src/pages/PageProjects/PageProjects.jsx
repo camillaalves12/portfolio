@@ -44,7 +44,6 @@ const techData = [
 export const PageProjects = () => {
   return (
     <>
-      <Header />
       <div className={S.container}>
         <Projects
             src={BestPizza}
