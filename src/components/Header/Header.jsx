@@ -6,25 +6,29 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import { NavLink } from 'react-router-dom'
 
 export const Header = () => {
+  const scrollTo = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <Navbar expand="lg">
       <Container className={S.header}>
-        <NavLink to="/">camilla_alves</NavLink>
+        <a onClick={() => scrollTo('home')}>camilla_alves</a>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
           <AiOutlineMenu color="#cdcdcd" size={32} className={S.iconHam}/> {/* Substitua #cdcdcd pela cor desejada e 32 pelo tamanho desejado */}
         </Navbar.Toggle>
  
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink to="/projects" className={S.nav}>
+            <a onClick={() => scrollTo('projects')} className={S.nav}>
               _projetos
-            </NavLink>
-            <NavLink to="/tech" className={S.nav}>
+            </a>
+            <a onClick={() => scrollTo('techs')} className={S.nav}>
               _tecnologias
-            </NavLink>
-            <NavLink to="/about" className={S.nav}>
+            </a>
+            <a onClick={() => scrollTo('aboutMe')} className={S.nav}>
               _sobre_mim
-            </NavLink>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>

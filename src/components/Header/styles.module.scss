@@ -1,6 +1,8 @@
 .header {
+  margin-top: 2rem;
   margin-bottom: 1rem;
   gap: 2rem;
+  position: fixed;
 }
 
 .header a {
@@ -8,6 +10,7 @@
 
   &:hover {
     color: #cdcdcd;
+    cursor: pointer;
   }
 }
 
