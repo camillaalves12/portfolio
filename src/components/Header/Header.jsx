@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
@@ -5,16 +6,21 @@ import S from './styles.module.scss'
 import { AiOutlineMenu } from 'react-icons/ai';
 import { NavLink } from 'react-router-dom'
 
+
 export const Header = () => {
+
+  const [isOpen, setIsOpen] = useState(false);
+  const handleToggle = () => setIsOpen(!isOpen);
+  
   const scrollTo = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-  }
+    }
 
   return (
     <Navbar expand="lg">
-      <Container className={S.header}>
+      <Container className={`${S.header} ${isOpen ? S.open : ''}`}>
         <a onClick={() => scrollTo('home')}>camilla_alves</a>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" >
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle}>
           <AiOutlineMenu color="#cdcdcd" size={32} className={S.iconHam}/> {/* Substitua #cdcdcd pela cor desejada e 32 pelo tamanho desejado */}
         </Navbar.Toggle>
  

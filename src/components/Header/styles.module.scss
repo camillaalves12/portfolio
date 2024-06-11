@@ -3,17 +3,46 @@
   margin-bottom: 1rem;
   gap: 2rem;
   position: fixed;
+  outline: none;
 }
 
 .header a {
   color: #fff;
+  outline: none;
+
 
   &:hover {
     color: #cdcdcd;
     cursor: pointer;
+
   }
+
 }
 
 .nav {
   margin-right: 15px;
 }
+
+@media screen and (max-width: 380px) {
+
+.header {
+  margin-top: 3rem;
+  } 
+  .header.open {
+    margin-top: 10rem;
+  }
+  
+}
+  
+@media screen and (max-width: 768px) {
+
+.header {
+  margin-top: 3rem;
+  } 
+  .header.open {
+    margin-top: 10rem;
+  }
+
+}
+  
+
