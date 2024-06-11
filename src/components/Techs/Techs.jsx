@@ -9,7 +9,7 @@ export const Techs = ({ title, techs }) => {
         {techs.map((tech, index) => (
           <div key={index} className={S.techs}>
             {tech.icon}
-            <p> {tech.name} </p>
+            <p className={S.techName}> {tech.name} </p>
           </div>
         ))}
       </div>
