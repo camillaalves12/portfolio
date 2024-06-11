@@ -63,9 +63,9 @@ export const Home = () => {
           <PageTechs />
         </div>
 
-        <div id="aboutMe">
+        {/* <div id="aboutMe">
           <PageAboutMe />
-        </div>
+        </div> */}
 
       </div>
     </>

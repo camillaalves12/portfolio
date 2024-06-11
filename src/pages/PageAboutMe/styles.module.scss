@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    height: 88vh;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     padding: 1rem;
@@ -22,4 +22,12 @@
   .letra {
     display: inline-block; /* Para animar individualmente as letras */
     opacity: 0; /* Começar com opacidade 0 para a animação de fadeIn */
+  }
+
+  @media screen and (max-width: 1225px) {
+    .text {
+      font-size: 16px;
+    }
+    
+  
   }

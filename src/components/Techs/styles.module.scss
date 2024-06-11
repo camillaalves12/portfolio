@@ -41,3 +41,32 @@ h2 {
 p {
   margin: 0;
 }
+
+@media screen and (max-width: 880px) {
+
+  .divTechs {
+    flex-direction: column;
+  }
+  
+  
+
+}
+@media screen and (max-width: 768px) {
+
+  .techs {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .techName {
+    font-size: 0.8rem;
+  }
+
+  .divTechs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+}
