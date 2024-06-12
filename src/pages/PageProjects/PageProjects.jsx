@@ -56,7 +56,7 @@ export const PageProjects = () => {
             src={Phones}
             name="Phones"
             description="É um app de mostruário, feito com React Native, que consome a API do Mercado Livre para exibir produtos de celulares e celulares."
-            hrefProject="hhttps://www.linkedin.com/posts/activity-7201654106350833666-r93O?utm_source=share&utm_medium=member_desktop"
+            hrefProject="https://www.linkedin.com/feed/update/urn:li:activity:7201654106350833666/"
             hrefCode="https://github.com/camillaalves12/phones"
             techs={techData[4]}
           />
