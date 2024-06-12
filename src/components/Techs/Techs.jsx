@@ -1,5 +1,5 @@
-import React from 'react'
-import S from './styles.module.scss'
+import React from "react";
+import S from "./styles.module.scss";
 
 export const Techs = ({ title, techs }) => {
   return (
@@ -14,6 +14,5 @@ export const Techs = ({ title, techs }) => {
         ))}
       </div>
     </div>
-  )
-}
-
+  );
+};

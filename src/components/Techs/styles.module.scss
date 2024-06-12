@@ -43,16 +43,11 @@ p {
 }
 
 @media screen and (max-width: 880px) {
-
   .divTechs {
     flex-direction: column;
   }
-  
-  
-
 }
 @media screen and (max-width: 768px) {
-
   .techs {
     width: 6rem;
     height: 6rem;
@@ -67,6 +62,4 @@ p {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-
 }

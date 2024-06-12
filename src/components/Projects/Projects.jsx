@@ -1,7 +1,13 @@
-import S from './styles.module.scss'
+import S from "./styles.module.scss";
 
-
-export const Projects = ({ src, name, description, hrefProject, hrefCode, techs }) => {
+export const Projects = ({
+  src,
+  name,
+  description,
+  hrefProject,
+  hrefCode,
+  techs,
+}) => {
   return (
     <div className={S.container}>
       <div className={S.card}>
@@ -9,7 +15,6 @@ export const Projects = ({ src, name, description, hrefProject, hrefCode, techs 
         <div className={S.description}>
           <h5> {name} </h5>
           <p>{description}</p>
-
 
           <div className={S.divTechs}>
             {techs.map((tech, index) => (
@@ -19,23 +24,21 @@ export const Projects = ({ src, name, description, hrefProject, hrefCode, techs 
             ))}
           </div>
 
-
           <div className={S.btns}>
             <button className={S.btn}>
-                <a href={hrefProject} target='_blank'>
+              <a href={hrefProject} target="_blank">
                 Visualizar Projeto
-                </a>
-              </button>
+              </a>
+            </button>
             <button className={S.btn}>
-            <a href={hrefCode} target='_blank'>
+              <a href={hrefCode} target="_blank">
                 Visualizar Código
-                </a>
-              </button>
+              </a>
+            </button>
           </div>
-
         </div>
         <div></div>
       </div>
     </div>
-  )
-}
+  );
+};

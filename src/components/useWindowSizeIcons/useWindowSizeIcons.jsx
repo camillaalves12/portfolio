@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export function useWindowSizeIcons() {
   const [windowSize, setWindowSize] = useState({
@@ -13,10 +13,10 @@ export function useWindowSizeIcons() {
         height: window.innerHeight,
       });
     }
-    
+
     window.addEventListener("resize", handleResize);
     handleResize();
-    
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 

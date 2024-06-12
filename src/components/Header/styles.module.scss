@@ -10,13 +10,10 @@
   color: #fff;
   outline: none;
 
-
   &:hover {
     color: #cdcdcd;
     cursor: pointer;
-
   }
-
 }
 
 .nav {
@@ -24,16 +21,14 @@
 }
 
 @media screen and (max-width: 380px) {
-
 .header {
   margin-top: 3rem;
   } 
   .header.open {
     margin-top: 10rem;
   }
-  
 }
-  
+
 @media screen and (max-width: 768px) {
 
 .header {
@@ -42,7 +37,6 @@
   .header.open {
     margin-top: 10rem;
   }
-
 }
   
 
