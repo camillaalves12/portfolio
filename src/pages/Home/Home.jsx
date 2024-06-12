@@ -6,6 +6,7 @@ import anime from 'animejs/lib/anime.es.js';
 import { PageProjects } from '../PageProjects/PageProjects';
 import { PageTechs } from '../PageTechs/PageTechs';
 import { PageAboutMe } from '../PageAboutMe/PageAboutMe';
+import CamillaImg from '../../imgs/camilla.jpg'
 
 export const Home = () => {
   useEffect(() => {
@@ -49,7 +50,7 @@ export const Home = () => {
                 </p>
               </div>
             </div>
-              <img className={S.imgCamilla} src="../src/imgs/camilla 1.jpg" alt="Foto Camilla" />
+              <img className={S.imgCamilla} src={CamillaImg} alt="Foto Camilla" />
           </div>
         </div>
 
