@@ -7,6 +7,7 @@ import MostraTech from '../../imgs/mostraTech.png'
 import TopekaBank from '../../imgs/topekaBank.png'
 import BestPizza from '../../imgs/bestPizza.png'
 import Calculadora from '../../imgs/calculadora.png'
+import Phones from '../../imgs/phones.jpg'
 
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoReact, IoLogoSass } from "react-icons/io5";
 import { DiBootstrap } from "react-icons/di";
@@ -37,6 +38,12 @@ const techData = [
     { icon: <IoLogoHtml5 size={30} /> },
     { icon: <IoLogoCss3 size={30} />},
   ],
+  [
+    { icon: <IoLogoJavascript size={30}/> },
+    { icon: <IoLogoReact size={30} /> },
+
+
+  ],
 
 ];
 
@@ -46,9 +53,17 @@ export const PageProjects = () => {
     <>
       <div className={S.container}>
         <Projects
+            src={Phones}
+            name="Phones"
+            description="É um app de mostruário que consome a API do Mercado Livre e exibe produtos relacionados a celulares e celulares, foi desenvolvido com react native."
+            hrefProject="hhttps://www.linkedin.com/posts/activity-7201654106350833666-r93O?utm_source=share&utm_medium=member_desktop"
+            hrefCode="https://github.com/camillaalves12/phones"
+            techs={techData[4]}
+          />
+        <Projects
             src={BestPizza}
             name="Best Pizza"
-            description="É um app de vendas de pizza que  oferece uma experiência completa de compra, desde a seleção do cardápio até o pagamento seguro."
+            description="É um app de vendas de pizza que  oferece uma experiência completa de compra, desde a seleção do cardápio até o pagamento seguro utilizando o stripe."
             hrefProject="https://best-pizza-jt9ogw8xx-camillaalves12s-projects.vercel.app/"
             hrefCode="https://github.com/camillaalves12/bestPizza"
             techs={techData[0]}
