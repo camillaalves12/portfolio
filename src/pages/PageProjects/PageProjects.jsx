@@ -55,7 +55,7 @@ export const PageProjects = () => {
         <Projects
             src={Phones}
             name="Phones"
-            description="É um app de mostruário que consome a API do Mercado Livre e exibe produtos relacionados a celulares e celulares, foi desenvolvido com react native."
+            description="É um app de mostruário, feito com React Native, que consome a API do Mercado Livre para exibir produtos de celulares e celulares."
             hrefProject="hhttps://www.linkedin.com/posts/activity-7201654106350833666-r93O?utm_source=share&utm_medium=member_desktop"
             hrefCode="https://github.com/camillaalves12/phones"
             techs={techData[4]}
@@ -63,7 +63,7 @@ export const PageProjects = () => {
         <Projects
             src={BestPizza}
             name="Best Pizza"
-            description="É um app de vendas de pizza que  oferece uma experiência completa de compra, desde a seleção do cardápio até o pagamento seguro utilizando o stripe."
+            description="É um app de vendas de pizza que  oferece uma experiência completa de compra, desde a seleção do cardápio até o pagamento."
             hrefProject="https://best-pizza-jt9ogw8xx-camillaalves12s-projects.vercel.app/"
             hrefCode="https://github.com/camillaalves12/bestPizza"
             techs={techData[0]}
