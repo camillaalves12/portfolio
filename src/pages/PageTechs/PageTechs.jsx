@@ -17,7 +17,7 @@ import { useWindowSizeIcons } from '../../components/useWindowSizeIcons/useWindo
 export const PageTechs = () => {
   
   const { width } = useWindowSizeIcons();
-  const iconSize = width > 768 ? 55 : 30; // Ajuste os valores conforme necessário
+  const iconSize = width > 768 ? 55 : 28; // Ajuste os valores conforme necessário
   
   const techData = [
     { icon: <IoLogoJavascript size={iconSize} />, name: 'Javascript' },
