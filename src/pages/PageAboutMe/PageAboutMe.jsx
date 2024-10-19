@@ -28,10 +28,12 @@ export const PageAboutMe = () => {
           <h6 className={S.text}>
             <span>/*</span> <br /> <br />
             Sou graduanda em Sistemas de Informação pela Universidade Federal de
-            Alagoas e uma desenvolvedora front-end dedicada. Possuo uma base
-            sólida em JavaScript, ReactJs, React Native, HTML, CSS, Bootstrap e
-            Sass, estou constantemente buscando expandir meus conhecimentos e
-            habilidades.
+            Alagoas (UFAL) e desenvolvedora frontend com foco em criar
+            interfaces web interativas e eficientes. Tenho sólida experiência
+            com React.js, React Native, JavaScript, Node.js, HTML, CSS, Sass,
+            Bootstrap e Tailwind, além de explorar ferramentas como
+            styled-components, Postman, Typescript, Next.js e o consumo de APIs
+            REST.
           </h6>
           <h6 className={S.text}>
             Além dos meus estudos formais, sou uma entusiasta de projetos
