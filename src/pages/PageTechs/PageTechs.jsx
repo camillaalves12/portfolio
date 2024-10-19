@@ -6,15 +6,16 @@ import {
   IoLogoReact,
   IoLogoSass,
 } from "react-icons/io5";
+import { BiLogoPostgresql, BiLogoTailwindCss } from "react-icons/bi";
+import { TbBrandMysql, TbBrandVite } from "react-icons/tb";
 import { DiBootstrap } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa6";
-import { TbBrandVite } from "react-icons/tb";
 import S from "./styles.module.scss";
 import { useWindowSizeIcons } from "../../components/useWindowSizeIcons/useWindowSizeIcons";
 
 export const PageTechs = () => {
   const { width } = useWindowSizeIcons();
-  const iconSize = width > 768 ? 55 : 28; // Ajuste os valores conforme necessário
+  const iconSize = width > 768 ? 35 : 20; // Ajuste os valores conforme necessário
 
   const techData = [
     { icon: <IoLogoJavascript size={iconSize} />, name: "Javascript" },
@@ -22,10 +23,13 @@ export const PageTechs = () => {
     { icon: <IoLogoCss3 size={iconSize} />, name: "Css3" },
     { icon: <IoLogoReact size={iconSize} />, name: "React" },
     { icon: <IoLogoReact size={iconSize} />, name: "React Native" },
-    { icon: <TbBrandVite size={iconSize} />, name: "Vite" },
     { icon: <DiBootstrap size={iconSize} />, name: "Bootstrap" },
     { icon: <IoLogoSass size={iconSize} />, name: "Sass" },
+    { icon: <BiLogoTailwindCss size={iconSize} />, name: "Tailwind" },
+    { icon: <BiLogoPostgresql size={iconSize} />, name: "Postgresql" },
+    { icon: <TbBrandMysql size={iconSize} />, name: "Mysql" },
     { icon: <FaGitAlt size={iconSize} />, name: "Git" },
+    { icon: <TbBrandVite size={iconSize} />, name: "Vite" },
   ];
 
   return (

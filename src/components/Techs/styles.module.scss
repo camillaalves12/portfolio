@@ -11,7 +11,7 @@ h2 {
 
 .divTechs {
   display: flex;
-  gap: 2rem;
+  gap: 1.8rem;
 }
 
 .techs {
@@ -24,8 +24,8 @@ h2 {
   -moz-box-shadow: 0px -2px 34px 1px rgba(0, 0, 0, 0.55);
   box-shadow: 0px -2px 34px 1px rgba(0, 0, 0, 0.55);
   gap: 1rem;
-  width: 8.5rem;
-  height: 8.5rem;
+  width: 7.5rem;
+  height: 7.5rem;
   cursor: pointer;
   
   &:hover {
